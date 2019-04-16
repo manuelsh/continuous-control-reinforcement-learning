@@ -1,4 +1,4 @@
-# Banana Navigator
+# Continuous control with Reinforcement Learning (DDPG algorithm)
 
 ## Introduction
 
