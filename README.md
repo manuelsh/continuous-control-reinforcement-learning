@@ -4,7 +4,7 @@
 
 This repository contains an implementation of the Deep Deterministic Policy Gradient (DDPG) algorithm described in [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/pdf/1509.02971.pdf). The implementation has been done in PyTorch, in the Unity environment called [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher). The objective of the agent is to move the double-jointed arm to the moving target location represented by a green sphere.
 
-![reacher](link)
+![reacher](https://github.com/manuelsh/continuous-control-reinforcement-learning/blob/master/images/reacher.gif)
 
 We will use a custom version of the environment with 20 arms. The agent will control each arm rigid body with the goal of moving and keeping the hand in the moving target. See more information in the section **Environment details**.
 

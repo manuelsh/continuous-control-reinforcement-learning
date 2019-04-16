@@ -40,7 +40,9 @@ The model converges to an average over 100 episode higher than 30 after 111 epis
 
 and the score plot during training is:
 
-![score plot](link)
+![score plot](https://github.com/manuelsh/continuous-control-reinforcement-learning/blob/master/images/results.png)
+
+where the dotted line represents the average over the previous 100 episodes (or less episodes if not available), and the blue line represents the score at that episode.
 
 Note that the parameters of the actor and critic can be found in the files `models-parameters/agent_reacher.torch` and `models-parameters/critic_reacher.torch`.
 
